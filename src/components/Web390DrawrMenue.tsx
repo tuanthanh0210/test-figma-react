@@ -1,5 +1,6 @@
 import { FunctionComponent, useCallback } from "react";
-import styles from "./Web390DrawrMenue.module.css";
+import { useNavigate } from "react-router-dom";
+import "./Web390DrawrMenue.css";
 
 type Web390DrawrMenueType = {
   onClose?: () => void;
@@ -8,60 +9,62 @@ type Web390DrawrMenueType = {
 const Web390DrawrMenue: FunctionComponent<Web390DrawrMenueType> = ({
   onClose,
 }) => {
+  const navigate = useNavigate();
+
   const onComponentDropdownMenuContainerClick = useCallback(() => {
-    // Please sync "Web 1280_myRecord" to the project
-  }, []);
+    navigate("/");
+  }, [navigate]);
 
   const onComponentDropdownMenuContainer4Click = useCallback(() => {
-    // Please sync "Web 1280_Column" to the project
-  }, []);
+    navigate("/web-1280-column");
+  }, [navigate]);
 
   return (
-    <div className={styles.web390Drawrmenue}>
-      <div className={styles.div} />
+    <div className="web-390-drawrmenue">
+      <div className="div133" />
       <div
-        className={styles.componentDropdownMenu}
+        className="component-dropdown-menu"
         onClick={onComponentDropdownMenuContainerClick}
       >
-        <div className={styles.div1} />
-        <div className={styles.div2}>自分の記録</div>
-        <div className={styles.div3} />
-        <div className={styles.div4} />
+        <div className="div134" />
+        <div className="div135">自分の記録</div>
+        <div className="div136" />
+        <div className="div137" />
       </div>
-      <div className={styles.componentDropdownMenu1}>
-        <div className={styles.div1} />
-        <div className={styles.div2}>体重グラフ</div>
-        <div className={styles.div3} />
-        <div className={styles.div4} />
+      <div className="component-dropdown-menu1">
+        <div className="div134" />
+        <div className="div135">体重グラフ</div>
+        <div className="div136" />
+        <div className="div137" />
       </div>
-      <div className={styles.componentDropdownMenu2}>
-        <div className={styles.div1} />
-        <div className={styles.div2}>目標</div>
-        <div className={styles.div3} />
-        <div className={styles.div4} />
+      <div className="component-dropdown-menu2">
+        <div className="div134" />
+        <div className="div135">目標</div>
+        <div className="div136" />
+        <div className="div137" />
       </div>
-      <div className={styles.componentDropdownMenu3}>
-        <div className={styles.div1} />
-        <div className={styles.div2}>選択中のコース</div>
-        <div className={styles.div3} />
-        <div className={styles.div4} />
+      <div className="component-dropdown-menu3">
+        <div className="div134" />
+        <div className="div135">選択中のコース</div>
+        <div className="div136" />
+        <div className="div137" />
       </div>
       <div
-        className={styles.componentDropdownMenu4}
+        className="component-dropdown-menu4"
         onClick={onComponentDropdownMenuContainer4Click}
       >
-        <div className={styles.div1} />
-        <div className={styles.div2}>コラム一覧</div>
-        <div className={styles.div3} />
-        <div className={styles.div4} />
+        <div className="div134" />
+        <div className="div135">コラム一覧</div>
+        <div className="div136" />
+        <div className="div137" />
       </div>
-      <div className={styles.componentDropdownMenu5}>
-        <div className={styles.div1} />
-        <div className={styles.div2}>設定</div>
-        <div className={styles.div3} />
-        <div className={styles.div4} />
+      <div className="component-dropdown-menu5">
+        <div className="div134" />
+        <div className="div135">設定</div>
+        <div className="div136" />
+        <div className="div137" />
       </div>
-      <img className={styles.iconClose} alt="" src="/icon-close.svg" />
+      <img className="icon-close" alt="" src="/icon-close.svg" />
     </div>
   );
 };

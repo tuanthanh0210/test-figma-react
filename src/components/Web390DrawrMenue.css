@@ -1,0 +1,103 @@
+.div133 {
+  top: 0;
+  left: 248px;
+  background-color: var(--color-darkslategray-100);
+  width: 32px;
+  height: 32px;
+}
+.div133,
+.div134,
+.div135 {
+  position: absolute;
+}
+.div134 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-gray-100);
+}
+.div135 {
+  top: calc(50% - 13px);
+  left: 32px;
+  line-height: 26px;
+  display: inline-block;
+  width: 248px;
+}
+.div136,
+.div137 {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-darkslategray-200);
+  height: 1px;
+  opacity: 0.25;
+  mix-blend-mode: normal;
+}
+.div137 {
+  bottom: 71px;
+  background-color: var(--custom-style);
+  opacity: 0.15;
+}
+.component-dropdown-menu {
+  position: absolute;
+  top: 32px;
+  left: 0;
+  width: 280px;
+  height: 72px;
+  cursor: pointer;
+}
+.component-dropdown-menu1,
+.component-dropdown-menu2 {
+  position: absolute;
+  top: 104px;
+  left: 0;
+  width: 280px;
+  height: 72px;
+}
+.component-dropdown-menu2 {
+  top: 176px;
+}
+.component-dropdown-menu3,
+.component-dropdown-menu4 {
+  position: absolute;
+  top: 248px;
+  left: 0;
+  width: 280px;
+  height: 72px;
+}
+.component-dropdown-menu4 {
+  top: 320px;
+  cursor: pointer;
+}
+.component-dropdown-menu5,
+.icon-close {
+  position: absolute;
+  top: 392px;
+  left: 0;
+  width: 280px;
+  height: 72px;
+}
+.icon-close {
+  top: 0;
+  left: 248px;
+  width: 32px;
+  height: 32px;
+}
+.web-390-drawrmenue {
+  position: relative;
+  background-color: transparent;
+  width: 280px;
+  height: 464px;
+  overflow: hidden;
+  max-width: 100%;
+  max-height: 100%;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--custom-style);
+  font-family: var(--font-hiragino-kaku-gothic-pro);
+}

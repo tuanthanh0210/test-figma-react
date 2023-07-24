@@ -4,7 +4,8 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import Web390DrawrMenue from "./components/Web390DrawrMenue";
+import Web1280MyRecord from "./pages/Web1280MyRecord";
+import Web1280Column from "./pages/Web1280Column";
 import { useEffect } from "react";
 
 function App() {
@@ -27,6 +28,10 @@ function App() {
         title = "";
         metaDescription = "";
         break;
+      case "/web-1280-column":
+        title = "";
+        metaDescription = "";
+        break;
     }
 
     if (title) {
@@ -45,7 +50,8 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<Web390DrawrMenue />} />
+      <Route path="/" element={<Web1280MyRecord />} />
+      <Route path="/web-1280-column" element={<Web1280Column />} />
     </Routes>
   );
 }
