@@ -1,0 +1,103 @@
+.div {
+  top: 0;
+  left: 248px;
+  background-color: var(--color-darkslategray-100);
+  width: 32px;
+  height: 32px;
+}
+.div,
+.div1,
+.div2 {
+  position: absolute;
+}
+.div1 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-gray-100);
+}
+.div2 {
+  top: calc(50% - 13px);
+  left: 32px;
+  line-height: 26px;
+  display: inline-block;
+  width: 248px;
+}
+.div3,
+.div4 {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-darkslategray-200);
+  height: 1px;
+  opacity: 0.25;
+  mix-blend-mode: normal;
+}
+.div4 {
+  bottom: 71px;
+  background-color: var(--color-white);
+  opacity: 0.15;
+}
+.componentDropdownMenu,
+.componentDropdownMenu1 {
+  position: absolute;
+  left: 0;
+  width: 280px;
+  height: 72px;
+}
+.componentDropdownMenu {
+  top: 32px;
+  cursor: pointer;
+}
+.componentDropdownMenu1 {
+  top: 104px;
+}
+.componentDropdownMenu2,
+.componentDropdownMenu3,
+.componentDropdownMenu4 {
+  position: absolute;
+  top: 176px;
+  left: 0;
+  width: 280px;
+  height: 72px;
+}
+.componentDropdownMenu3,
+.componentDropdownMenu4 {
+  top: 248px;
+}
+.componentDropdownMenu4 {
+  top: 320px;
+  cursor: pointer;
+}
+.componentDropdownMenu5,
+.iconClose {
+  position: absolute;
+  top: 392px;
+  left: 0;
+  width: 280px;
+  height: 72px;
+}
+.iconClose {
+  top: 0;
+  left: 248px;
+  width: 32px;
+  height: 32px;
+}
+.web390Drawrmenue {
+  position: relative;
+  background-color: transparent;
+  width: 280px;
+  height: 464px;
+  overflow: hidden;
+  max-width: 100%;
+  max-height: 100%;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+  font-family: var(--font-hiragino-kaku-gothic-pro);
+}
